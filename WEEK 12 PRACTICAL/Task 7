@@ -1,6 +1,6 @@
 <head> IT FUNDAMENTALS</head>
-
 <!-- This code displays the table with 3 column headings -->
+
 <table>
     <thead>
       <tr>
@@ -12,7 +12,8 @@
     <tbody>
       <tr>
     
-        <td></TD>Red</td>
+        <td>1</TD>
+        <td>Red</td>
         <td>L</td>
         
         
