@@ -27,7 +27,7 @@ p + p {text-indent: 5em;}
   that is, not the first p tag */
 
   body {  
-   background: rgb(122, 161, 161);  
+   background: c-background-color;  
  }
  base-font-color         131 148 150
 secondary-font-color    88 110 117 
