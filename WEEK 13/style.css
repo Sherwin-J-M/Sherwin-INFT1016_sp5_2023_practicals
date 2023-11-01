@@ -27,5 +27,5 @@ p + p {text-indent: 5em;}
   that is, not the first p tag */
 
   body {  
-   background: white url(image.gif) repeat fixed top left;  
+   background: black url(image.gif) repeat fixed top left;  
  }
