@@ -19,7 +19,7 @@
   body {
     color: var(--base-font-color);
     max-width: auto;
-    border: 10px;
+    border: 10%;
   }
 
   img{
