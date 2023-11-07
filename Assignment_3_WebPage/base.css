@@ -17,7 +17,6 @@
   }
   
   body {
-    background-color: var(--c-background-color);
     color: var(--base-font-color);
     max-width: auto;
   }
