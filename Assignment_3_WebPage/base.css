@@ -22,10 +22,9 @@
   }
 
   img{
-    text-align: center;
     display:block;
-    margin: 7%;
-    max-width: 100%;
+    margin: auto;
+    max-width: auto;
     height: auto;
   }
  
