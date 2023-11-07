@@ -60,10 +60,7 @@
     color: var(--c-blue);
   }
   
-  main {
-    display: flex;
-    flex-direction: row-reverse;
-  }
+
   
   footer {
     text-align: center;
