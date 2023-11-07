@@ -21,8 +21,9 @@
     color: var(--base-font-color);
     max-width: auto;
   }
+
   img{
-    display:block
+    display:block;
   }
   header, footer {
     background-color: var(--c-background-highlights);
