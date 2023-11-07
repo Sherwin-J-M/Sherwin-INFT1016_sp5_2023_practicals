@@ -47,15 +47,7 @@
     display: flex;
     justify-content: center;
   }
-  
-  article a {
-    color: var(--c-magenta);
-  }
-  
-  article a:hover {
-    color: var(--c-orange);
-  }
-  
+
   aside {
     color: var(--c-green);
   }
@@ -66,10 +58,6 @@
   
   aside a:hover {
     color: var(--c-blue);
-  }
-  
-  article h2 {
-    padding-top: 50px;
   }
   
   main {
