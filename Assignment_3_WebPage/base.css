@@ -19,7 +19,7 @@
   body {
     background-color: var(--c-background-color);
     color: var(--base-font-color);
-    max-width: 800px;
+    max-width: auto;
   }
   
   header, footer {
