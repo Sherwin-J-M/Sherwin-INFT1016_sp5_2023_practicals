@@ -26,7 +26,10 @@
     max-width: 100%;
     height: auto;
   }
-  header, footer {
+  header {
+    p{
+      text-align: center;
+    }
   }
   
   main, footer, header {
