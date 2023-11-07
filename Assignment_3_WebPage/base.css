@@ -27,9 +27,7 @@
     height: auto;
   }
   header {
-    p{
-      text-align: center;
-    }
+      text-align: right;
   }
   
   main, footer, header {
