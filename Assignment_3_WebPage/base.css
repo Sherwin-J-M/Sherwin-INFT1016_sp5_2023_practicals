@@ -43,7 +43,7 @@
   }
   
   nav ul li {
-    text-align: center;
+    text-align: left;
     display: flex;
     justify-content: center;
   }
