@@ -24,6 +24,7 @@
 
   img{
     display:block;
+    max-width: auto;
   }
   header, footer {
     background-color: var(--c-background-highlights);
