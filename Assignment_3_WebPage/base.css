@@ -15,6 +15,9 @@ header {
   text-align: center;
 }
 
+h1 h2 {
+  color: #2F5496;
+}
 nav{
   background-color: black;
   color: white;
@@ -40,7 +43,7 @@ nav form {
   margin: auto;
   width: 80%;
   padding: 20px;
-  border: 2px solid #01121b;
+  border: 2px solid #2F5496;
   border-radius: 10px;
 }
 
@@ -52,7 +55,7 @@ nav form {
 }
 
 .Table a{
-  color: aqua;
+  color: #2F5496;
 }
 
 .Table ul{
@@ -79,7 +82,7 @@ nav form {
 
 .Table .Container{
   padding-left: 15px;
-  border-left: 2px solid #007bff
+  border-left: 2px solid #2F5496
 }
 
 main {
