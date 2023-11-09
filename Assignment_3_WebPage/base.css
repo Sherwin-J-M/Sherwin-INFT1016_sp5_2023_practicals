@@ -2,57 +2,35 @@
     --bg-color: rgb(240,240,240) 
   }
   
-  body {
-    background-color: var(--bg-color);
-    max-width: auto;
-    border: 50% solid black;
-  }
-
-  img{
-    display:block;
-    margin: 1%;
-    width: auto;
-    height: auto;
-  }
-
-  h1 {
-    text-align: center;
-    font-size: 150%;
-    color: var(--c-yellow);
-    margin-bottom: -0.7%;
-  }
-
-  h2{
-    color:rgb(47, 84, 150);
-    margin-bottom: -0.7%;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: flex;
-    justify-content: left;
-  }
-
-  aside {
-    color: var(--c-green);
-  }
-  
-  aside a {
-    color: var(--c-red);
-  }
-  
-  aside a:hover {
-    color: var(--c-blue);
-  }
-  
-  footer {
-    text-align: center;
-  }
-
-  article{
-    margin-bottom: 2%;
+body {
+  background-color: white;
+  margin: 0%;
+  padding: 0%;
 }
+
+header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+nav ul{
+  gap: 20px;
+}
+
+nav a{
+  color: white;
+}
+
+nav form {
+  gap: 10px;
+}
+
