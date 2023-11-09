@@ -35,21 +35,21 @@ nav form {
 }
 
 
+.Table .Heading{
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 .Table {
   background-color: white;
   box-shadow: 0 3px 30px black;
   max-width: 600px;
-  margin: auto;
+  margin: 40px;
   border-radius: 50px;
 }
 
-.Header{
-  background-color: black;
-  padding: 30px;
-  border-radius: 50px 50px 0 100px;
-  min-height: 100px;
-}
+
 
 .Heading{
   font-size: 25px;
@@ -57,6 +57,10 @@ nav form {
   margin: 0;
   text-align: center;
   width: 100%;
+  background-color: black;
+  padding: 30px;
+  border-radius: 50px 50px 0 100px;
+  min-height: 100px;
 }
 
 .Table-list{
@@ -71,7 +75,11 @@ nav form {
 
 }
 
-.item{
+.Header .Sub-header{
   margin-bottom: 15px;
   border-bottom: 1px so;
+}
+
+.header{
+
 }
