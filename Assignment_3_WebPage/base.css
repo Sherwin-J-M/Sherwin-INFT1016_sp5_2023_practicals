@@ -59,12 +59,12 @@ nav form {
   width: 100%;
 }
 
-.table-list{
+.Table-list{
   background-color: darkblue;
   border-radius: 50px 0 52px 52px;
 }
 
-.list{
+.List{
   border-radius: 0 100px;
   background-color: white;
   margin: 0;
