@@ -34,12 +34,7 @@ nav form {
   gap: 10px;
 }
 
-.table {
-  background-color: white;
-  padding: 15px;
-  margin: 20px;
-  border-radius: 7px;
-}
+
 
 .Table {
   background-color: white;
@@ -73,5 +68,5 @@ nav form {
   border-radius: 0 100px;
   background-color: white;
   margin: 0;
-  
+
 }
