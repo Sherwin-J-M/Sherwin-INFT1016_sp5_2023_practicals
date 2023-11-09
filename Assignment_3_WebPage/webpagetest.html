@@ -5,10 +5,19 @@
         <title>Assignment 3 - Webpage</title>    
         <link rel="stylesheet" href="base.css">   
         <script>
-            function updHeading() {
+            function updateHeading() {
                 const userName = document.querySelector('input[name="user_name"]').value;
                 document.querySelector('h1').innerText = `Hello, ${userName}`;
             }
+            
+            window.onload = function () {
+                const urlParams = new URLSearchParams(window.location.search);
+                const userName = urlParams.get('user_name');
+                if (userName) {
+                    document.querySelector('input[name="user_name"]').value = userName;
+                    updateHeading();
+                }
+            };
 
         </script> 
         <style>
