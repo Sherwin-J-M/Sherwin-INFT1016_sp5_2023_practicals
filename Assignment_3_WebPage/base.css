@@ -35,51 +35,54 @@ nav form {
 }
 
 
+.Table{
+  margin-bottom: 40px;
+}
+
 .Table .Heading{
+  font-size: 25px;
+  font-weight: bold;
+  color:black;
+
+}
+
+.Table a{
+  color: aqua;
+}
+
+.Table ul{
+  padding-left: 0;
+}
+
+.Table .Header{
   font-size: 15px;
   font-weight: bold;
+  color: #003049;
   text-transform: uppercase;
 }
 
-.Table {
-  background-color: white;
-  box-shadow: 0 3px 30px black;
-  max-width: 600px;
-  margin: 40px;
-  border-radius: 50px;
+.Table .Header::before{
+  content:"";
+  position:absolute;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background: blue;
+  left: -20px;
+  top: 50%;
+  tra
 }
 
-
-
-.Heading{
-  font-size: 25px;
-  color: white;
-  margin: 0;
-  text-align: center;
-  width: 100%;
-  background-color: black;
-  padding: 30px;
-  border-radius: 50px 50px 0 100px;
-  min-height: 100px;
+.Table .Sub-header{
+  font-size: 15px;
+  padding-left: 4px;
 }
 
-.Table-list{
-  background-color: darkblue;
-  border-radius: 50px 0 52px 52px;
+.Table ul li {
+  margin: 16px 0;
 }
 
-.List{
-  border-radius: 0 100px;
-  background-color: white;
-  margin: 0;
-
-}
-
-.Header .Sub-header{
-  margin-bottom: 15px;
-  border-bottom: 1px so;
-}
-
-.header{
-
+.Table .Container{
+  padding-left: 15px;
+  border-left: 1px solid rgb(93, 150, 150)
 }
