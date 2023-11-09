@@ -40,3 +40,38 @@ nav form {
   margin: 20px;
   border-radius: 7px;
 }
+
+.Table {
+  background-color: white;
+  box-shadow: 0 3px 30px black;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.header{
+  background-color: black;
+  padding: 30px;
+  border-radius: 50px 50px 0 100px;
+  min-height: 100px;
+}
+
+.heading{
+  font-size: 25px;
+  color: white;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.table-list{
+  background-color: darkblue;
+  border-radius: 50px 0 52px 52px;
+}
+
+.list{
+  border-radius: 0 100px;
+  background-color: white;
+  margin: 0;
+  
+}
