@@ -65,6 +65,8 @@ nav form {
 .Table .Header{
   font-size: 18px;
   font-weight: bold;
+  margin-bottom: -5px;
+  margin-top: 3px;
   color: #003049;
   text-transform: uppercase;
 }
