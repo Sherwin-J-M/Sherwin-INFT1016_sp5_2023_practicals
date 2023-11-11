@@ -1,10 +1,6 @@
 html {
   scroll-behavior: smooth;
 }
-
-.image-style{
-  text-align:center;
-}
   
 body {
   background-color: white;
@@ -19,29 +15,23 @@ header {
   text-align: center;
 }
 
-h1,h2 {
+h1h2 {
   color: #2F5496;
 }
-
 nav{
-  width: 84%;
-  margin: auto;
-  display: flex;
-  padding: 20px 0;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
   justify-content: space-between;
 }
 
-nav ul li{
-  display: inline-block;
-  margin: 10px 20px;
+nav ul{
+  gap: 20px;
 }
 
-nav ul li a{
-  color: #000000
-}
-
-nav ul li a:hover{
-  color: #f82500;
+nav a{
+  color: white;
+  font-weight: bold;
 }
 
 nav form {
@@ -92,6 +82,7 @@ nav form {
 
 .Table .Container{
   padding-left: 15px;
+  border-left: 2px solid #2F5496
 }
 
 main {
