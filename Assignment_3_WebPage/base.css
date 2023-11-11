@@ -34,13 +34,13 @@ nav ul{
 }
 
 body {
-  background-color: var(--primary-color);
+  background: var(--primary-color);
   margin: 0%;
   padding: 0%;
 }
 
 header {
-  color: white;
+  color: var(--secondary-color);
   padding: 20px;
   text-align: center;
 }
