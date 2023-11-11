@@ -5,7 +5,12 @@ html {
 .image-style{
   text-align:center;
 }
-  
+
+.Setting{
+  width: 100%;
+  height: 100%;
+}
+
 body {
   background-color: white;
   margin: 0%;
