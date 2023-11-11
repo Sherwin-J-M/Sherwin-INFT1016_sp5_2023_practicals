@@ -49,6 +49,10 @@ h1,h2 {
   color: #2F5496;
 }
 
+h3{
+  color: var(--secondary-color)
+}
+
 nav{
   width: 84%;
   margin: auto;
