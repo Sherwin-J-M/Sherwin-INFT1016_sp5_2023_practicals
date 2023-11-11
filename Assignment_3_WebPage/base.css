@@ -17,8 +17,8 @@ html {
 }
 
 #icon{
-  width: 30px;
-  height: 30px;
+  width: auto;
+  height: auto;
   cursor: pointer;
 }
 
