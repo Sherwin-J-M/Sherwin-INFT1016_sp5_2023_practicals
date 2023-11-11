@@ -22,25 +22,7 @@ header {
 h1,h2 {
   color: #2F5496;
 }
-nav{
-  background-color: black;
-  color: white;
-  padding: 10px 20px;
-  justify-content: space-between;
-}
 
-nav ul{
-  gap: 20px;
-}
-
-nav a{
-  color: white;
-  font-weight: bold;
-}
-
-nav form {
-  gap: 10px;
-}
 
 
 .Table{
