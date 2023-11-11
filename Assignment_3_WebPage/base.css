@@ -15,7 +15,7 @@ header {
   text-align: center;
 }
 
-h1, h2 {
+h1,h2 {
   color: #2F5496;
 }
 nav{
@@ -65,7 +65,7 @@ nav form {
 .Table .Header{
   font-size: 18px;
   font-weight: bold;
-  color: #0a8bd1;
+  color: #003049;
   text-transform: uppercase;
 }
 
