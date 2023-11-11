@@ -20,16 +20,7 @@
                 }
             };
 
-            var icon = document.getElementById("icon");
-            icon.oneclick = function(){
-                document.body.classList.toggle("dark-theme");
-                if(document.body.classList.contains("dark-theme")){
-                    icon.src = "https://static-00.iconduck.com/assets.00/dark-theme-icon-512x512-185rlszm.png";
-                }
-                else{
-                    icon.src="https://static-00.iconduck.com/assets.00/dark-theme-icon-512x512-185rlszm.png";
-                }
-            }
+
 
         </script> 
         <style>
@@ -460,6 +451,18 @@
 
         <footer>      
             <p>©Copyright 2050 by nobody. All rights reversed.</p>    
-        </footer>  
+        </footer> 
+        <script>
+            var icon = document.getElementById("icon");
+            icon.oneclick = function(){
+                document.body.classList.toggle("dark-theme");
+                if(document.body.classList.contains("dark-theme")){
+                    icon.src = "https://static-00.iconduck.com/assets.00/dark-theme-icon-512x512-185rlszm.png";
+                }
+                else{
+                    icon.src="https://static-00.iconduck.com/assets.00/dark-theme-icon-512x512-185rlszm.png";
+                }
+            }
+        </script> 
         </body>
 </html>
