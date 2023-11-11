@@ -23,9 +23,10 @@ h1,h2 {
   color: #2F5496;
 }
 nav{
-  background-color: black;
-  color: white;
-  padding: 10px 20px;
+  width: 84%;
+  margin: auto;
+  display: flex;
+  padding: 20px 0;
   justify-content: space-between;
 }
 
