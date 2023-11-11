@@ -4,10 +4,14 @@
 }
 
 .dark-theme{
-  --primary-color: #000000;
+/*
+--primary-color: #000000;
   --secondary-color: #ffffff;
-
+*/
+--primary-color: #ffffff;
+--secondary-color: #000000;
 }
+
 html {
   scroll-behavior: smooth;
 }
