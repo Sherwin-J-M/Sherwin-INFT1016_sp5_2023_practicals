@@ -1,6 +1,10 @@
 html {
   scroll-behavior: smooth;
 }
+
+.image-style{
+  text-align:center;
+}
   
 body {
   background-color: white;
