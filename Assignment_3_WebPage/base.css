@@ -1,17 +1,13 @@
 :root{
-  --primary-color: #ffffff;
+  --primary-color: #000000;
   --secondary-color: #000000;
 }
 
 .dark-theme{
-/*
---primary-color: #000000;
-  --secondary-color: #ffffff;
-*/
---primary-color: #000000;
---secondary-color: #ffffff;
-}
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
 
+}
 html {
   scroll-behavior: smooth;
 }
@@ -38,7 +34,7 @@ nav ul{
 }
 
 body {
-  background-color: blue;
+  background-color: var(--primary-color);
   margin: 0%;
   padding: 0%;
 }
