@@ -22,6 +22,7 @@ header {
 h1,h2 {
   color: #2F5496;
 }
+
 nav{
   width: 84%;
   margin: auto;
@@ -30,6 +31,18 @@ nav{
   justify-content: space-between;
 }
 
+nav ul{
+  gap: 20px;
+}
+
+nav a{
+  color: white;
+  font-weight: bold;
+}
+
+nav form {
+  gap: 10px;
+}
 
 
 .Table{
