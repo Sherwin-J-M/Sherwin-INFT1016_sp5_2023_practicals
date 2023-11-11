@@ -1,3 +1,8 @@
+:root{
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -24,13 +29,12 @@ nav ul{
 }
 
 body {
-  background-color: white;
+  background-color: var(--primary-color);
   margin: 0%;
   padding: 0%;
 }
 
 header {
-  background-color: black;
   color: white;
   padding: 20px;
   text-align: center;
@@ -54,7 +58,7 @@ nav ul li{
 }
 
 nav ul li a{
-  color: #000000
+  color: var(--secondary-color)
 }
 
 nav ul li a:hover{
