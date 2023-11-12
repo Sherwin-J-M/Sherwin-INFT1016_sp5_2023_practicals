@@ -149,6 +149,7 @@ footer {
 /*Button for image style*/
 .image-container {
   display: none;
+  margin: 5px;
 }
 .image-container img {
   max-width: 100%;
