@@ -628,11 +628,19 @@
                 const selectedFont = fontSelector.value;
                 document.body.style.fontFamily = selectedFont;
                 localStorage.setItem('selectedFont', selectedFont);
+                const paragraphs = document.querySelectorAll('p');
+                paragraphs.forEach(paragraph => {
+                    paragraph.style.fontFamily = selectedFont;
+                });
             });
             
             const storedFont = localStorage.getItem('selectedFont');
             if (storedFont) {
                 document.body.style.fontFamily = storedFont;
+                const paragraphs = document.querySelectorAll('p');
+                paragraphs.forEach(paragraph => {
+                    paragraph.style.fontFamily = storedFont;
+        });
             }
 
         </script> 
