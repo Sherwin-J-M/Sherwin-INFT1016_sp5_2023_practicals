@@ -13,7 +13,7 @@ html {
 }
 
 .image-style{
-  text-align:center;
+  text-align: center;
 }
 
 .Early-Adopters{
@@ -78,6 +78,7 @@ nav{
 nav ul li{
   display: inline-block;
   margin: 10px 20px;
+  transition: color 0.3s;
 }
 
 nav ul li a{
@@ -116,7 +117,7 @@ nav form {
   padding-left: 0;
 }
 
-.Table .Header{
+table.Table .Header{
   font-size: 18px;
   font-weight: bold;
   color: var(--secondary-color);
@@ -160,7 +161,7 @@ footer {
 }
 .image-container img {
   width: 50%;
-  height: 30%;
+  height: 30px;
   max-width: 100%;
   margin: 5px;
 }
