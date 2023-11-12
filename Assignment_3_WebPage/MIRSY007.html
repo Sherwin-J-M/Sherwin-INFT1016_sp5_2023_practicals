@@ -485,13 +485,31 @@
 
                         // Question 1
                         var Q1 = document.querySelector('input[name="Q1"]:checked');
-                        if (Q1 && Q1.value === 'C') {
+                        if (Q1 && Q1.value === 'A') {
                             score++;
                         }
 
                         // Question 2
                         var Q2 = document.querySelector('input[name="Q2"]:checked');
                         if (Q2 && Q2.value === 'B') {
+                            score++;
+                        }
+
+                        // Question 3
+                        var Q3 = document.querySelector('input[name="Q3"]:checked');
+                        if (Q3 && Q3.value === 'C') {
+                            score++;
+                        }
+
+                        // Question 4
+                        var Q4 = document.querySelector('input[name="Q4"]:checked');
+                        if (Q4 && Q4.value === 'A') {
+                            score++;
+                        }
+
+                        // Question 5
+                        var Q5 = document.querySelector('input[name="Q5"]:checked');
+                        if (Q5 && Q5.value === 'B') {
                             score++;
                         }
 
@@ -514,12 +532,36 @@
                         <li><input type="radio" name="Q1" value="C"> All of the above</li>
                     </ul>
                     <li>
-                        which of the following is the advantage of using AI in cybersecurity?
+                        which of the following is the Disadvantage of using AI in cybersecurity?
                     </li>
                     <ul>
                         <li><input type="radio" name="Q2" value="A"> Improved threat detection</li>
                         <li><input type="radio" name="Q2" value="B"> Increase in cost</li>
-                        <li><input type="radio" name="Q2" value="C"> All of the above</li>
+                        <li><input type="radio" name="Q2" value="C"> Increase in quantity</li>
+                    </ul>
+                    <li>
+                        which of the following is a type of machine learning in Cybersecurity?
+                    </li>
+                    <ul>
+                        <li><input type="radio" name="Q3" value="A"> Supervised machine learning</li>
+                        <li><input type="radio" name="Q3" value="B"> Reinforcement machine learning</li>
+                        <li><input type="radio" name="Q3" value="C"> All of the above</li>
+                    </ul>
+                    <li>
+                        which of the following is an Early Adopter of AI?
+                    </li>
+                    <ul>
+                        <li><input type="radio" name="Q4" value="A"> Amazon</li>
+                        <li><input type="radio" name="Q4" value="B"> Disney</li>
+                        <li><input type="radio" name="Q4" value="C"> None of these</li>
+                    </ul>
+                    <li>
+                        which application of AI technology that uses mathematical data models to help computers to learn without providing direct instruction?
+                    </li>
+                    <ul>
+                        <li><input type="radio" name="Q5" value="A"> Quantum Computing</li>
+                        <li><input type="radio" name="Q5" value="B"> Machine Learning</li>
+                        <li><input type="radio" name="Q5" value="C"> Networking</li>
                     </ul>
                 </ol>
                 <button id="Submit">Submit answer</button>
