@@ -210,3 +210,7 @@ footer {
   margin: 5px;
   color: var(--secondary-color);
 }
+
+.toggle:checked + .AI + .image-style {
+  display: block;
+}
