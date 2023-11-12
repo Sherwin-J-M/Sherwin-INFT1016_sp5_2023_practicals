@@ -194,3 +194,11 @@ footer {
 .dark-theme label {
   color: white;
 }
+
+.AI {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 5px;
+  color: var(--secondary-color);
+}
