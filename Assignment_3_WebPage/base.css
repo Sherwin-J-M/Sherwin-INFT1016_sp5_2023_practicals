@@ -177,6 +177,7 @@ footer {
 
 /*Button for image style*/
 .image-container {
+  text-align: center;
   display: none;
   margin: 5px;
 }
