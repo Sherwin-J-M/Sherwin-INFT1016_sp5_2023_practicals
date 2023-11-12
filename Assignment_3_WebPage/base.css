@@ -172,6 +172,7 @@ footer {
 
 /*Button for image style*/
 .image-style{
+  text-align: center;
   display: none;
   margin: 5px;
 }
@@ -183,7 +184,6 @@ footer {
 }
 
 .image-container {
-  text-align: center;
   display: none;
   margin: 5px;
 }
