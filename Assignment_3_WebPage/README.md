@@ -5,8 +5,8 @@
 1. [Introduction](#introduction)
 2. [AI in Cybersecurity](#AI-in-Cybersecurity)
 3. [Early Adopters of AI](#Early-Adopters-of-AI)
-4. [Benefits of AI in Cybersecurity](#Benefits-of-AI)
-5. [Disadvantages of AI in Cybersecurity](#Disadvantages-of-AI)
+4. [Benefits of AI in Cybersecurity](#Benefits-of-AI-in-Cybersecurity)
+5. [Disadvantages of AI in Cybersecurity](#Disadvantages-of-AI-in-Cybersecurity)
 6. [Conclusion](#Conclusion)
 7. [References](#References)
 
@@ -19,7 +19,7 @@ Contains which display:
 - Gives the user the option to change the Theme of the webpage (Light Theme or Dark Theme)
 - Include as option for user to enter his/her name and display it to the screen
 - Contains an image button when clicked displays an image
-- Contains a table of content - when the user click on one of the contents it direct the user to the location of the content
+- Contains a table of content - when the user click on one of the contents it direct the user to the location of the
 - Includes a short 5 quesiton MCQ quiz at the end of the page
 
 ## Introduction
