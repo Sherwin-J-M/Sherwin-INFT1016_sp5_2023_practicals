@@ -16,6 +16,12 @@ html {
   text-align:center;
 }
 
+.image-button{
+  margin: auto;
+  width: 25px;
+  height: 25px;
+}
+
 #icon{
   margin-left: 15px;
   width: auto;
