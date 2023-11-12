@@ -3,17 +3,11 @@
   --secondary-color: #000000;
 }
 
-[data-theme="dark"]{
+.dark-theme{
   --primary-color: #222121;
   --secondary-color: #cccccc;
 
 }
-
-.dark-them{
-  background-color: #222121;
-  color: #cccccc;
-}
-
 html {
   scroll-behavior: smooth;
 }
