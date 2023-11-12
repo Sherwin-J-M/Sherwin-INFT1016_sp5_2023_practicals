@@ -6,7 +6,7 @@
   --secondary-color: #000000;
 }
 
-.dark-theme{
+.Dark-Theme{
   --primary-color: #222121;
   --secondary-color: #cccccc;
 
@@ -206,7 +206,7 @@ footer {
 .toggle:checked + .label + .image-container {
   display: block;
 }
-.dark-theme label {
+.Dark-Theme label {
   color: white;
 }
 
