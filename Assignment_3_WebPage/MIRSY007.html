@@ -32,20 +32,6 @@
                 }
             };
 
-            // Add custom font for user to select
-            const fontSelector = document.getElementById('fontSelector');
-            fontSelector.addEventListener('change', function () {
-                const selectedFont = fontSelector.value;
-                document.body.style.fontFamily = selectedFont;
-                localStorage.setItem('selectedFont', selectedFont);
-            });
-            
-            const storedFont = localStorage.getItem('selectedFont');
-            if (storedFont) {
-                document.body.style.fontFamily = storedFont;
-            }
-
-
 
         </script> 
         <style>
@@ -635,6 +621,20 @@
             icon.onclick = function () {
                 Themetoggle();
             };
+
+            // Add custom font for user to select
+            const fontSelector = document.getElementById('fontSelector');
+            fontSelector.addEventListener('change', function () {
+                const selectedFont = fontSelector.value;
+                document.body.style.fontFamily = selectedFont;
+                localStorage.setItem('selectedFont', selectedFont);
+            });
+            
+            const storedFont = localStorage.getItem('selectedFont');
+            if (storedFont) {
+                document.body.style.fontFamily = storedFont;
+            }
+
         </script> 
         </body>
 </html>
