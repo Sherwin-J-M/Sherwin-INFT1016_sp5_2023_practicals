@@ -71,7 +71,7 @@
                 <button type="submit">Apply!</button>       
             </form>
             <!-- Button for changing the web page them from light mode to dark mode, vice-versa -->
-            <button id ="icon" onclick="">Toggle Theme</button>  
+            <button id ="Theme-icon" onclick="">Toggle Theme</button>  
         </nav> 
         
         <!-- Option included for the user to select desired font -->
@@ -622,7 +622,7 @@
             <h5>©Copyright 2050 by nobody. All rights reversed.</h5>    
         </footer> 
         <script>
-            var icon = document.getElementById("icon");
+            var icon = document.getElementById("Theme-icon");
             var body = document.body;
 
             // To toggle the them
@@ -645,7 +645,7 @@
                 body.classList.remove("Dark-Theme");
             }
 
-            icon.onclick = function () {
+            Theme-icon.onclick = function () {
                 Themetoggle();
             };
 
