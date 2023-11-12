@@ -32,7 +32,20 @@
                 }
             };
 
-            
+            // Add custom font for user to select
+            const fontSelector = document.getElementById('fontSelector');
+            fontSelector.addEventListener('Change', function () {
+                const selectedFont = fontSelector.value;
+                document.body.style.fontFamily = selectedFont;
+                // Store the selected font in local storage if you want to remember it on page refresh
+                localStorage.setItem('selectedFont', selectedFont);
+            });
+
+            // Check if a font preference is stored in local storage and apply it
+            const storedFont = localStorage.getItem('selectedFont');
+            if (storedFont) {
+                document.body.style.fontFamily = storedFont;
+            }
 
 
 
@@ -70,7 +83,13 @@
                 <button type="submit">Apply!</button>       
             </form>
             <button id ="icon" onclick="">Toggle Theme</button>  
-        </nav>   
+        </nav> 
+        <label for="fontSelector">Select Font type</label>  
+        <select id="Fontoption">
+            <option value = "Arial, sans-serif">Arial</option>
+            <option value = "Times New Roman, serif">Times New Roman</option>
+            <option value = "Courier New, monospace">Courier New</option>
+        </select>
         <header>      
             <h1>Enhancing Cybersecurity: The impact, pros, and cons of Artificial Intelligence</h1> 
             <p class="right-align">Sherwin John Miranda</p>
