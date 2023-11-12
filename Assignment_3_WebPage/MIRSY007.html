@@ -480,31 +480,31 @@
             <script>
                 // Quiz result answers
                 document.getElementById('Submit').addEventListener('click', function () {
-                var score = 0;
-
+                    var score = 0;
+            
                     // Question 1
                     var Q1 = document.querySelector('input[name="Q1"]:checked');
                     if (Q1 && Q1.value === 'C') {
                         score++;
                     }
-
+            
                     // Question 2
                     var Q2 = document.querySelector('input[name="Q2"]:checked');
                     if (Q2 && Q2.value === 'B') {
                         score++;
                     }
-
+            
                     // Display the score
                     var result = document.getElementById('Final-result');
                     result.innerHTML = 'Your score: ' + score + '/2';
                 });
             </script>
-
+            
             <div id="Quiz">
                 <h2>Quiz - Test your knowledge</h2>
                 <ol>
                     <li>
-                        which of the follwing is the advantage of using AI in cybersecurity?
+                        which of the following is the advantage of using AI in cybersecurity?
                     </li>
                     <ul>
                         <li><input type="radio" name="Q1" value="A"> Improved threat detection</li>
@@ -512,7 +512,7 @@
                         <li><input type="radio" name="Q1" value="C"> All of the above</li>
                     </ul>
                     <li>
-                        which of the follwing is the advantage of using AI in cybersecurity?
+                        which of the following is the advantage of using AI in cybersecurity?
                     </li>
                     <ul>
                         <li><input type="radio" name="Q2" value="A"> Improved threat detection</li>
@@ -523,6 +523,12 @@
                 <button id="Submit">Submit answer</button>
                 <div id="Final-result"></div>
             </div>
+            
+            
+            
+            
+            
+            
             
 
 
