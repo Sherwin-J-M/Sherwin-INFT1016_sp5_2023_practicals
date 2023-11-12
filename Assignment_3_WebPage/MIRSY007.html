@@ -23,7 +23,7 @@
 
             
             
-            window.onload = function updateHeading() {
+            window.onload = function updateHeading(){
                 const urlParams = new URLSearchParams(window.location.search);
                 const userName = urlParams.get('user_name');
                 if (userName) {
@@ -57,30 +57,29 @@
         <div class="Setting">
             <h4>Current date and time: </h4>
             <span id="datetime"></span>
-            <nav> 
-                <ul>        
-                    <li><a href="#">Home</a></li>        
-                    <li><a href="#">Our team</a></li>        
-                    <li><a href="#">Projects</a></li>        
-                    <li><a href="#">Contact</a></li>      
-                </ul>       
-                <form>         
-                    <input type="text" name="user_name" placeholder="Enter your name!">         
-                    <button type="submit">Apply!</button>       
-                </form>
-                <button id ="icon" onclick="">Toggle Theme</button>  
-            </nav>   
-            <header>      
-                <h1>Enhancing Cybersecurity: The impact, pros, and cons of Artificial Intelligence</h1> 
-                <p class="right-align">Sherwin John Miranda</p>
-                <p class="right-align">1104173621</p>   
-                <h4> Hello Guest </h4> 
-                <div class = "image-style">
-                    <img src="https://img.lovepik.com/photo/40014/7564.jpg_wh300.jpg" alt="AI Image"> 
-                </div>
-                
-            </header>
-        </div>    
+        </div>   
+        <nav> 
+            <ul>        
+                <li><a href="#">Home</a></li>        
+                <li><a href="#">Our team</a></li>        
+                <li><a href="#">Projects</a></li>        
+                <li><a href="#">Contact</a></li>      
+            </ul>       
+            <form>         
+                <input type="text" name="user_name" placeholder="Enter your name!">         
+                <button type="submit">Apply!</button>       
+            </form>
+            <button id ="icon" onclick="">Toggle Theme</button>  
+        </nav>   
+        <header>      
+            <h1>Enhancing Cybersecurity: The impact, pros, and cons of Artificial Intelligence</h1> 
+            <p class="right-align">Sherwin John Miranda</p>
+            <p class="right-align">1104173621</p>   
+            <h4> Hello Guest </h4> 
+            <div class = "image-style">
+                <img src="https://img.lovepik.com/photo/40014/7564.jpg_wh300.jpg" alt="AI Image"> 
+            </div>
+        </header> 
         
         <div class = "Table">
             <h1 class = "Heading">Table of Contents</h1>
