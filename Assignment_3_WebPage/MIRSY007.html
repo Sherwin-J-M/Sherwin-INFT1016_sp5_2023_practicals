@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="base.css">   
         <script>
              // JavaScript code:
+
+             // Function to allow user to enter their name the webpage
              function updateHeading() {
                 const userName = document.querySelector('input[name="user_name"]').value;
                 document.querySelector('h7').innerText = `Hello ${userName}`;
@@ -51,10 +53,12 @@
          
 
     <body>
+        <!-- Displays current time and date at the top-left corner -->
         <div class="Setting">
             <h4>Current date and time: </h4>
             <span id="datetime"></span>
         </div>   
+        <!-- Displays the section top of the page along with the enter name option on the right hand side -->
         <nav> 
             <ul>        
                 <li><a href="#">Home</a></li>        
@@ -66,8 +70,11 @@
                 <input type="text" name="user_name" placeholder="Enter your name!">         
                 <button type="submit">Apply!</button>       
             </form>
+            <!-- Button for changing the web page them from light mode to dark mode, vice-versa -->
             <button id ="icon" onclick="">Toggle Theme</button>  
         </nav> 
+        
+        <!-- Option included for the user to select desired font -->
         <label for="fontSelector">Select Font:</label>
         <select id="fontSelector">
             <option value="Arial, sans-serif">Arial</option>
@@ -81,7 +88,8 @@
         <header>      
             <h1>Enhancing Cybersecurity: The impact, pros, and cons of Artificial Intelligence</h1> 
             <p class="right-align">Sherwin John Miranda</p>
-            <p class="right-align">1104173621</p>   
+            <p class="right-align">1104173621</p>
+            <!-- Changes the 'Guest' part to the name the user has provided if not its remains as 'Guest' -->   
             <b>
                 <h7> Hello Guest </h7> 
             </b>
@@ -94,6 +102,7 @@
             
         </header> 
         
+        <!-- Table of content - Clicking on one of its content directs you to contents location -->
         <div class = "Table">
             <h1 class = "Heading">Table of Contents</h1>
             <div class = "Container">
@@ -241,6 +250,7 @@
             </article>   
 
             <article>
+                <!-- Includes the button option when the user clicks the image pops up -->
                 <h2 id="Early">Early adopters of AI</h2>
                 <h3 class="Early-heading" id="Amazon">Amazon:</h3>
                 <input type="checkbox" class="toggle" id="image1">
@@ -427,6 +437,7 @@
             </article>  
 
             <article>
+                <!-- References with their link imbedded -->
                 <h2 id="References">References</h2>
                 <ul>
                     <li>
@@ -489,6 +500,7 @@
 
             </article>
             <script>
+                /* Function to add short Quiz at the end */
                 document.addEventListener('DOMContentLoaded', function () {
                     // Quiz result answers
                     document.getElementById('Submit').addEventListener('click', function () {
@@ -531,9 +543,11 @@
                 });
             </script>
             
+            <!-- Create a short quiz of 5 questions in MCQ (3 options) format -->
             <div id="Quiz">
                 <h2>Quiz - Test your knowledge</h2>
                 <ol>
+                    <!-- Question 1 -->
                     <li>
                         which of the following is the advantage of using AI in cybersecurity?
                     </li>
@@ -542,6 +556,7 @@
                         <li><input type="radio" name="Q1" value="B"> Increase in cost</li>
                         <li><input type="radio" name="Q1" value="C"> All of the above</li>
                     </ul>
+                    <!-- Question 2 -->
                     <li>
                         which of the following is the Disadvantage of using AI in cybersecurity?
                     </li>
@@ -550,6 +565,7 @@
                         <li><input type="radio" name="Q2" value="B"> Increase in cost</li>
                         <li><input type="radio" name="Q2" value="C"> Increase in quantity</li>
                     </ul>
+                    <!-- Question 3 -->
                     <li>
                         which of the following is a type of machine learning in Cybersecurity?
                     </li>
@@ -558,6 +574,7 @@
                         <li><input type="radio" name="Q3" value="B"> Reinforcement machine learning</li>
                         <li><input type="radio" name="Q3" value="C"> All of the above</li>
                     </ul>
+                    <!-- Question 4 -->
                     <li>
                         which of the following is an Early Adopter of AI?
                     </li>
@@ -566,6 +583,7 @@
                         <li><input type="radio" name="Q4" value="B"> Disney</li>
                         <li><input type="radio" name="Q4" value="C"> None of these</li>
                     </ul>
+                    <!-- Question 5 -->
                     <li>
                         which application of AI technology that uses mathematical data models to help computers to learn without providing direct instruction?
                     </li>
@@ -575,6 +593,7 @@
                         <li><input type="radio" name="Q5" value="C"> Networking</li>
                     </ul>
                 </ol>
+                <!-- Once user click submit button, the user is provided with the result -->
                 <button id="Submit">Submit answer</button>
                 <div id="Final-result"></div>
             </div>

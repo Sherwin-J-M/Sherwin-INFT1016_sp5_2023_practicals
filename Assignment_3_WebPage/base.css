@@ -1,3 +1,6 @@
+/* CSS STYLE SHEET FOR WEBPAGE */
+
+/* Style color for light mode and dark mode*/
 :root{
   --primary-color: #ffffff;
   --secondary-color: #000000;
@@ -13,6 +16,7 @@ a{
   color: #537abd; 
 }
 
+/* Enable smooth scrolling when going to desired page */
 html {
   scroll-behavior: smooth;
 }
@@ -58,6 +62,7 @@ header {
   text-align: center;
 }
 
+/* adding color to section for both dark mode and light mode */
 h1,h2 {
   color: #2F5496;
 }
@@ -77,6 +82,8 @@ h4{
   margin: 5px;
   color: var(--secondary-color);
 }
+
+/* Style change for nav section*/
 nav{
   width: 84%;
   margin: auto;
@@ -103,7 +110,7 @@ nav form {
   gap: 10px;
 }
 
-
+/* Style change for Table section*/
 .Table{
   margin: auto;
   width: 80%;
@@ -134,8 +141,6 @@ table.Table .Header{
   text-transform: uppercase;
 }
 
-
-
 .Table .Sub-header{
   font-size: 15px;
   padding-left: 4px;
@@ -164,6 +169,8 @@ footer {
   padding: 15px 0;
 }
 
+
+/*Button for image style*/
 .image-style{
   display: none;
   margin: 5px;
@@ -175,7 +182,6 @@ footer {
   margin: 5px;
 }
 
-/*Button for image style*/
 .image-container {
   text-align: center;
   display: none;
