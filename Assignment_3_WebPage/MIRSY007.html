@@ -232,10 +232,10 @@
                 <h2 id="Early">Early adopters of AI</h2>
                 <h3 id="Amazon">Amazon:</h3>
                 <button id="AmazonButton">View Image</button>
-                <div id="Amazon-image">
+                <div id="amazonImageContainer">
                     <img src="https://m.media-amazon.com/images/G/35/gc/designs/livepreview/amazon_logo_noto_email_v2016_au-main._CB444479176_.png" alt="Amazon">
                 </div>
-                 <p id="AmazonPhotographer">Source: Amazon.com.au</p>
+                 <p id="amazonPhotographer">Source: Amazon.com.au</p>
                 <p>
                     Amazon uses AI to detect and block accounts for any potentially suspicious activity, such as fraudulent activity and identify and remove these accounts. E.g., Suppose a customer account is accessed from a different location. In that case, the AI system will mark this as suspicious activity and require the customer to verify their identity before their purchase.
                 </p>
@@ -477,6 +477,16 @@
             icon.onclick = function(){
                 document.body.classList.toggle("dark-theme");
             }
+
+            /* Function to show the image contained */
+            function showImage(){
+                const amazonImageContainer = document.getElementById('amazonImageContainer');
+                const amazonPhotographer = document.getElementById('amazonPhotographer');
+                amazonImageContainer.innerHTML = `<img src="amazon.jpg" alt="Amazon">`;
+                amazonPhotographer.innerText = 'Photographer: John Doe';
+            }
+            document.getElementById('amazonButton').addEventListener('click', showAmazonImage);
+            
         </script> 
         </body>
 </html>
