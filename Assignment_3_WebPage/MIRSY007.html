@@ -10,6 +10,16 @@
                 const userName = document.querySelector('input[name="user_name"]').value;
                 document.querySelector('h4').innerText = `Hello ${userName}`;
             }
+
+            function updDate(){
+                const now = new Date();
+                const currentDateTime = now.toLocaleString();
+                document.querySelector('#datetime').textContent = currentDateTime;
+            
+            }
+            setInterval(updDate, 1000);
+
+            
             
             window.onload = function () {
                 const urlParams = new URLSearchParams(window.location.search);
@@ -43,6 +53,8 @@
 
     <body>
         <div class="Setting">
+            <hi>Current date and time: </hi>
+            <span id="datetime"></span>
             <nav> 
                 <ul>        
                     <li><a href="#">Home</a></li>        
