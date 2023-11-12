@@ -17,9 +17,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.image-style{
-  text-align: center;
-}
 
 .Early-Adopters{
   margin-top: 10%;
@@ -165,6 +162,18 @@ footer {
   color: #fff;
   text-align: center;
   padding: 15px 0;
+}
+
+.image-style{
+  text-align: center;
+  display: none;
+  margin: 5px;
+}
+.image-style img {
+  width: 25%;
+  height: 15%;
+  max-width: 100%;
+  margin: 5px;
 }
 
 /*Button for image style*/
