@@ -161,6 +161,7 @@ footer {
   border: 1px solid #ccc;
   padding: 5px;
   margin: 5px;
+  margin-top: 10%;
 }
 .toggle:checked + .label + .image-container {
   display: block;
