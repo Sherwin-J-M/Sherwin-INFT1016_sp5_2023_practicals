@@ -1,463 +1,58 @@
-<!DOCTYPE html>
-<html>  
-    <head>  
-      <meta charset="utf-8">  
-        <title>Assignment 3 - Webpage</title>    
-        <link rel="stylesheet" href="base.css">   
-        <script>
-             // JavaScript code:
-            function updateHeading() {
-                const userName = document.querySelector('input[name="user_name"]').value;
-                document.querySelector('h4').innerText = `Hello ${userName}`;
-            }
-            
-            window.onload = function () {
-                const urlParams = new URLSearchParams(window.location.search);
-                const userName = urlParams.get('user_name');
-                if (userName) {
-                    document.querySelector('input[name="user_name"]').value = userName;
-                    updateHeading();
-                }
-            }
-
-            
+<html lang="en">
+  <head>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:40px;
 
 
+      }
+      button{
+        border: none;
+        cursor: pointer;
+        appearance: none;
+        background-color: inherit;
+         transition: transform .7s ease-in-out;
+        margin-left:10px;
 
-        </script> 
-        <style>
-            .right-align{
-                text-align: right;
-            }
-            p{
-                text-align:justify;
-                font-family: Cambria, serif;
-            }
-            h1, h2, h3{
-                font-family: Arial, Helvetica, sans-serif;
-                margin-bottom: -0.7%;
-            }
+      }
+      button:hover{
+        transform: rotate(360deg);
 
-        </style>
-         
+      }
+      img{
+        width: 70px;
+        height: 70px;
+      }
+      input[type="email"]{
+        padding:10px;
+        border:2px solid #314de4;
+        outline :none;
+        border-radius:5px;
+        font-size:24px;
+        color:#314de4;
+      }
+      .text{
+        font-size:60px;
+        color:#314de4;
+        font-family:Arial;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="text">Subscribe To Newsletter</div>
+    <div>
 
-    <body>
-        <div class="Setting">
-            <nav> 
-                <ul>        
-                    <li><a href="#">Home</a></li>        
-                    <li><a href="#">Our team</a></li>        
-                    <li><a href="#">Projects</a></li>        
-                    <li><a href="#">Contact</a></li>      
-                </ul>       
-                <form>         
-                    <input type="text" name="user_name" placeholder="Enter your name!">         
-                    <button type="submit">Apply!</button>       
-                </form>
-                <button id ="icon" onclick="">Toggle Theme</button>  
-            </nav>   
-            <header>      
-                <h1>Enhancing Cybersecurity: The impact, pros, and cons of Artificial Intelligence</h1> 
-                <p class="right-align">Sherwin John Miranda</p>
-                <p class="right-align">1104173621</p>   
-                <h4> Hello Guest </h4> 
-                <div class = "image-style">
-                    <img src="https://img.lovepik.com/photo/40014/7564.jpg_wh300.jpg" alt="AI Image"> 
-                </div>
-                
-            </header>
-        </div>    
-        
-        <div class = "Table">
-            <h1 class = "Heading">Table of Contents</h1>
-            <div class = "Container">
-                <ol>
-                    <li>
-                        <a href="#Intro" class = "Header">Introduction</a>
-                    </li>
-
-
-                    <li>
-                        <a href="#AI"  class = "Header">AI(Artificial Intelligence)</a>
-                        <ul>
-                            <li>
-                                <a href="#ML" class = "Sub-header">Machine Learning</a>
-                            </li>
-                        </ul>
-                    </li>
-                    
-
-                    <li>
-                        <a href="#Early" class = "Header">Early adopter of AI</a>
-                        <ul>
-                            <li>
-                                <a href="#Amazon" class = "Sub-header">Amazon</a>
-                            </li> 
-                            <li>
-                                <a href="#Twitter" class = "Sub-header">Twitter</a>
-                            </li>
-                            <li>
-                                <a href="#Google" class = "Sub-header">Google</a>
-                            </li>
-                            <li>
-                                <a href="#NVIDIA" class = "Sub-header">NVIDIA</a>
-                            </li>
-                        </ul>
-                    </li>
-                    
-
-                    <li>
-                        <a href="#Benfits"  class = "Header">Benfits of AI</a>
-                        <ul>
-                            <li>
-                                <a href="#Network" class = "Sub-header">AI in network security</a>
-                            </li>
-                            <li>
-                                <a href="#Complex" class = "Sub-header">AI can simulate complex scenarios</a>
-                            </li>
-                            <li>
-                                <a href="#Behavioural" class = "Sub-header">Behavioural Biometrics</a>
-                            </li>
-                            <li>
-                                <a href="#Advanced" class = "Sub-header">Tackling against Advanced Hacking methods</a>
-                            </li>
-                            <li>
-                                <a href="#Enhanced" class = "Sub-header">Enhanced predictive analysis</a>
-                            </li>
-                            <li>
-                                <a href="#Automated" class = "Sub-header">Automated security operations</a>
-                            </li>
-                            <li>
-                                <a href="#Phishing" class = "Sub-header">Phishing detection</a>
-                            </li>
-                            <li>
-                                <a href="#Protecting" class = "Sub-header">Protecting and managing passwords</a>
-                            </li>
-                        </ul>
-                    </li>
-                    
-                    
-                    <li>
-                        <a href="#Disadvantages"  class = "Header">AI disadvantages</a>
-                        <ul>
-                            <li>
-                                <a href="#Skills" class = "Sub-header">Cybersecurity Skills Gap</a>
-                            </li>
-                            <li>
-                                <a href="#Cost" class = "Sub-header">Cost</a>
-                            </li>
-                            <li>
-                                <a href="#Unemployment" class = "Sub-header">Unemployment</a>
-                            </li>
-                            
-                            <li>
-                                <a href="#Hacker" class = "Sub-header">Hacker's using AI</a>
-                            </li>
-                        </ul>
-                    </li>
-                    
-                    <li>
-                        <a href="#Conclusion"  class = "Header">Conclusion</a>
-                    </li>
-                    <li>
-                        <a href="#References"  class = "Header">References</a>
-                    </li>
-
-                </ol>
-            </div>
-            
-                
-
-            </ol>
-
-        </div> 
-
-        <main>      
-            <article>        
-                <h2 id="Intro">Introduction</h2>        
-                <p>In today's interconnected world, technologies and data have become a part of our daily lives. These emerging technologies that have emerged over the years have started playing a vital role in the world of cyber security, where safeguarding one's digital data is vital. These emerging technologies are reshaping how we defend against malicious cyber-attacks. One of the significant technologies that has appeared is “AI,” short for Artificial Intelligence. The application of AI (Artificial Intelligence) for cybersecurity tasks has attracted a greater attention from both sectors, private as well as public as many organizations have become increasingly concerned about protecting their digital assets or data from any unauthorized access. Many organizations have also become a target of these attacks, especially those that fall under small and medium-sized organizations. AI also serves as a double-edged sword, where it can improve cybersecurity substantially and can also facilitate new forms of attacks that can pose cybersecurity with severe security threats.
-                    The following report delves into the profound impact of this emerging technology, AI (Artificial Intelligence). 
-                </p>       
-            </article>
-
-            <article>
-                <h2 id="AI">AI (artificial intelligence) in cybersecurity</h2>
-                <p>
-                    AI, also known as Artificial Intelligence, is a technology that can understand, learn and act based on its acquired information. It is also said that AI possesses a certain degree of human intelligence. When it comes to cybersecurity, AI is ideally suitable and capable of solving some of the most difficult problems or challenges faced in the realm of cybersecurity. With the constantly ever-evolving cyber-attacks, AI can used as a shield to protect against these attacks through automatic threat detection and also through its more enhanced way of responding more efficiently when compared to approaching traditional software-driven. Machine learning is one of the applications of AI technology.
-                </p>
-
-                <h3 id="ML">Machine learning: </h3>
-                <p>
-                    Machine learning is also an application of AI technology that uses mathematical data models to help computers to learn without providing direct instruction. This enables computers to constantly continue learning and improving their data on their own based on their experience - 
-                    Machine learning is also the most common and primary way most people interact with an AI. Some of these ways are:
-                    <ul>
-                        <li>Receiving video recommendation on an online video platform</li>
-                        <li>Scheduling meetings in your calendar, playing a specific song, or calling someone using a virtual assistant who responds to your requests</li>
-                    </ul>	
-                    <p>Example of how machine learning algorithms are used in cyber security:</p>
-                    <ul>
-                        <li>Decision tree algorithm—for detecting and classifying attacks</li>
-                        <li>K-means clustering—for detecting malware</li>
-                        <li>K-nearest neighbours classifier (kNN)—for facial recognition used for authentication</li>
-                        <li>Random forest algorithm—for classifying phishing attacks</li>
-                        <li>Support Vector Machine (SVM) algorithm—for classifying, detecting, and predicting blacklisted IP addresses and port addresses  </li>
-                    </ul>
-
-                    
-                    <p>Types of machine learning in Cybersecurity</p>
-                    <ul>
-                        <li>Supervised machine learning </li>
-                        <li>Semi-supervised machine learning</li>
-                        <li>Unsupervised machine learning</li>
-                        <li>Reinforcement machine learning</li>
-                    </ul>
-                </p>
-            </article>   
-
-            <article>
-                <h2 id="Early">Early adopters of AI</h2>
-                <h3 id="Amazon">Amazon:</h3>
-                <p>
-                    Amazon uses AI to detect and block accounts for any potentially suspicious activity, such as fraudulent activity and identify and remove these accounts. E.g., Suppose a customer account is accessed from a different location. In that case, the AI system will mark this as suspicious activity and require the customer to verify their identity before their purchase.
-                </p>
-
-                <h3 id="Twitter">Twitter:</h3>
-                <p>
-                    Twitter uses AI to identify for any hateful comments and use its AI-powered bots to suspend or remove these such accounts that promote hate speech
-                </p>
-                
-                <h3 id="Google">Google:</h3>
-                <p>
-                    Google uses AI in their products to help reduce the burden on its users from any related to security systems.
-                </p>
-                <ul>
-                    <li><b>Gmail:</b> AI is used to filter and block any potential spam to prevent any phishing attempts as well as malware.</li>
-                    <li><b>Google safe browsing:</b> AI warns its users from accessing websites that may potentially contain risks such as malware, viruses, etc.</li>
-                </ul> 
-
-                <h3 id="NVIDIA">NVIDIA:</h3>
-                <p>
-                    NVIDIA created NVIDIA Morpheus using AI to identify and act on threats and anomalies that were previously impossible to detect.
-                </p>
-                <UL>
-                    <li><b>NVIDIA Morpheus:</b> enables digital fingerprinting by monitoring every user's account, machine, and service to determine when suspicious interaction occurs.</li>
-                    <li><b>NVIDIA Morpheus:</b> also enables cybersecurity developers to build high-performance pipelines for security works flows with minimal development efforts, resulting in real-time threat detection.</li>
-                </UL>
-            </article>
-
-            <article>
-                <h2 id="Benefits">Benefits of AI</h2>
-                <ol>
-                    <li>
-                        <h3  id="Network">AI in network security</h3>
-                        <p>
-                            Due to the way AI algorithm is developed, AI can improve and become more efficient and intelligent, improving network security over time. To improve network security, AI learns and understands more about the organization's network behaviour and analyses the patterns present on the network.
-                        </p>
-                    </li>
-
-                    <li>
-                        <h3 id="Complex">AI can simulate complex scenarios</h3>
-                        <p>
-                            AI can create bots that can simulate complex scenarios, even mimicking cyberattacks, allowing organizations to test and improve their defences. These battle bots assist in identifying vulnerabilities and evaluating and measuring the effectiveness of these security systems.
-                        </p>
-                    </li>
-
-                    <li>
-                        <h3 id="Behavioural">Behavioural Biometrics </h3>
-                        <p>
-                            Behavioural biometrics uses AI and Machine learning to identify and remember the unique patterns of human behaviour. Behavioural biometrics uses dynamic, individual actions like how a person responds, types and the speed of their action on their devices.
-                        </p>
-                    </li>
-
-                    <li>
-                        <h3 id="Advanced">Tackling against Advanced Hacking methods</h3>
-                        <p>
-                            AI can minimize human errors caused while protecting against advanced hacking methods. They can identify and provide with current data knowledge based on industry and global-specific processes used and identify the potential of what could be most likely used to attack your system.
-                        </p>
-                    </li>
-
-                    <li>
-                        <h3 id="Enhanced">Enhanced predictive analysis</h3>
-                        <p>
-                            AI and Machine Learning can automate security operations, reducing the workload of security teams. AI can automatically and instantly detect any sort of attack, alert the security team, and suggest mitigation measures in case of a security breach.
-                        </p>
-                    </li>
-
-                    <li>
-                        <h3 id="Automated">Automated security operations </h3>
-                        <p>
-                            AI and Machine Learning can automate security operations, reducing the workload of security teams. AI can automatically and instantly detect any sort of attack, alert the security team, and suggest mitigation measures in case of a security breach.
-                        </p>
-                    </li>
-
-                    <li>
-                        <h3 id="Phishing">Phishing detection</h3>
-                        <p>
-                            AI detects phishing by working based on its algorithms and focusing on understanding as well as analysing patterns from enormous amounts of data to predict any unusual behaviour and anomalies. It also even evolves over time while learning patterns of normal behaviours. This feature of AI makes it easier to identify for phishing emails, spam, and any kind of malware.
-                        </p>
-                    </li>
-
-                    <li>
-                        <h3 id="Protecting">Protecting and managing passwords</h3>
-                        <p>
-                            AI can be used to generate passwords that are strong and unique by detecting passwords that are reused or weak in strength across multiple accounts. AI can notify users by assessing data from past breaches and inform them when their passwords are in the potential of being compromised. 
-                        </p>
-                    </li>
-                </ol>
-            </article>
-
-            <article>
-                <h2 id="Disadvantages">AI disadvantages</h2>
-                <ol>
-                    <li>
-                        <h3 id="Skills">Cybersecurity Skills Gap</h3>
-                        <p>
-                            The shortage of required professionals is a disadvantage because AI-powered security systems require skilled professionals who can manage, develop, and implement the technology.
-                        </p>
-                    </li>
-
-                    <li>
-                        <h3 id="Cost">Cost</h3>
-                        <p>
-                            Implementing AI-powered security systems can be expensive as the technology requires specialized software and hardware and skilled professionals to develop and maintain its systems. This poses a problem, especially for smaller organizations that have limited budgets.
-                        </p>
-                    </li>
-
-                    <li>
-                        <h3 id="Unemployment">Unemployment </h3>
-                        <p>
-                            Another significant concern of this emerging technology is that it may lead to widespread employment. As this AI technology advances and evolves, there is a possibility that various roles that humans perform can be automated by the AI, potentially leaving many people facing unemployment.
-                        </p>
-                    </li>
-
-                    <li>
-                        <h3 id="Hacker">Hacker's using AI</h3>
-                        <p>
-                            Hackers can use AI to benefit themselves by making use of the potential of AI to make their cyberattacks more advanced and avoid any kind of threat detection.Some of the ways they use AI are:
-                        </p>
-                        <ul>
-                            <li>Social engineering schemes: This scheme relies on psychological manipulation to trick individuals into revealing their sensitive data/information. They include a broad range of activities in categories such as phishing, scams and other fraudulent activities. These cybercriminals can use AI to create more personalized and sophisticated messaging tools that can fool any unsuspecting victims into revealing their sensitive information.</li>
-                            <li>Password hacking: Cybercriminals can exploit AI by improving the algorithms that are used for deciphering passwords. This use can enhance these algorithms to provide for more and quicker accurate guessing of the password, which allows hackers to become even more efficient and profitable in their outcome.</li>
-                            <li>Deep fakes: Cybercriminals can use deep fakes by using AI's ability to easily manipulate visual or audio content and make it seem like genuine content. This includes the use of audio and video to impersonate an individual, which can then be broadly distributed online on social media platforms, which can then create stress, fear, or confusion among those who consume it and also lead to reputational damage to the targeted individual or victims.</li>
-                            <li>Data poisoning: Hackers can alter or 'poison' the algorithm used by an AI that influences its decision, which can lead it to make wrong decisions or supply false information. By the time the cause is identified, the damage done would already be severe.</li>
-                        </ul>
-                    </li>
-                </ol>
-            </article>
-
-            <article>
-                <h2 id="Conclusion">Conclusion</h2>
-                <p>
-                    This report provides a comprehensive overview of AI and the cyber security landscape, offering insights into the advantages as well as disadvantages and evolving roles of AI in safeguarding our digital world.
-                </p>
-
-                <p>
-                    In this digital era where technology and data are part of our daily life, the need for robust cybersecurity measures has never been more critical. The emergence of technology such as AI (Artificial Intelligence) has helped defend against malicious cyber threats in this digital background.
-                </p>
-
-                <p>
-                    As explained in this report, machine learning is an integral part of AI, which uses mathematical data models to learn and improve autonomously. This technology is all around in our lives, starting from video recommendations to chatbots and virtual assistants, but it finds its most crucial part in the applications of Cybersecurity
-                </p>
-
-                <p>
-                    The capabilities of AI in Cybersecurity are vast. Cybersecurity has benefitted from using AI to improve their network security, simulating complex attack scenarios, using behavioural biometrics, and providing additional protection against advanced hacking methods.
-                </p>
-
-                <p>
-                    Nevertheless, the implementation of AI also brings forth another set of challenges to Cybersecurity, such as a shortage of skilled professionals, the high cost of specialized software and hardware, and a potential rise in unemployment due to the rise in automation of jobs through AI. Furthermore, Hackers harness the abilities of AI to make their cybersecurity attacks sophisticated by utilizing social engineering schemes, password hacking, deep fakes, and data poisoning.
-                </p>
-
-                <p>
-                    Despite AI having its drawbacks, the constructive collaboration of AI and Cybersecurity is a dynamic and evolving partnership and continues to expand and has undeniably transformed many organizations' cybersecurity landscape. Some of the notable ones are Amazon, Twitter, Google, and NVIDIA, which have demonstrated AI's potential in detecting suspicious activities, identifying hate speech, and improving the overall digital security
-                </p>
-                
-            </article>  
-
-            <article>
-                <h2 id="References">References</h2>
-                <ul>
-                    <li>
-                        <a href="https://www.presencesecure.com/advantages-limitations-of-artificial-intelligence-and-machine-learning-in-cybersecurity/">A. (n.d.). THE ADVANTAGES AND LIMITATIONS OF ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING IN CYBERSECURITY.</a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.balbix.com/insights/artificial-intelligence-in-cybersecurity/">Balbix (n.d.). Using Artificial Intelligence in Cybersecurity.</a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.coursera.org/articles/machine-learning-vs-ai">Coursera Inc. (2023, June 17). Machine Learning vs. AI: Differences, Uses, and Benefits.</a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.securitymagazine.com/articles/99487-assessing-the-pros-and-cons-of-ai-for-cybersecurity#:~:text=AI%20can%20be%20misused%20for,to%20detect%20and%20mitigate%20them">Denyer, C. (n.d.). Assessing the pros and cons of AI for cybersecurity.</a>
-                    </li>
-
-                    <li>
-                        <a href="https://dresma.ai/ai-in-twitter/#:~:text=Managing%20the%20Twitter%20timeline&text=An%20AI%20algorithm%20predicts%20the,user%20would%20find%20most%20interesting">Dresma Inc. (n.d.). AI in Twitter: 7 Ways Twitter Uses AI to Improve Its Platform.</a>
-                    </li>
-
-                    <li>
-                        <a href="https://cloud.google.com/blog/products/identity-security/how-ai-can-improve-digital-security">Google (2023, March 25). How AI can improve digital security.</a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.holisticseo.digital/ai/benefit/cybersecurity/">Holistic SEO (2023, July 25). AI in Cybersecurity: How It Works, Benefits, Downsides, and Examples.</a>
-                    </li>
-
-                    <li>
-                        <a href="https://opensourcedworkplace.com/news/7-benefits-of-using-ai-in-cybersecurity">Lukić, D. (n.d.). 7 Benefits of Using AI in Cybersecurity.</a>
-                    </li>
-
-                    <li>
-                        <a href="https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/artificial-intelligence-vs-machine-learning#:~:text=Machine%20learning%20is%20an%20application,its%20own%2C%20based%20on%20experience">Microsoft (n.d.). Artificial intelligence (AI) vs. Machine learning (ML).</a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.morganstanley.com/articles/ai-cybersecurity-new-era">Morgan Stanley (2023, September 15). AI and Cybersecurity: A New Era.</a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.nvidia.com/en-au/industries/cybersecurity/">NVIDIA (n.d.). Modernize Cybersecurity With AI.</a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.knowledgehut.com/blog/security/ai-in-cyber-security">Prakash, M. (2023, September 7). AI in Cyber Security: Use Cases, Advantages.</a>
-                    </li>
-                    
-                    <li>
-                        <a href="https://www.ntrinsic.net/resources/blog/the-impact-of-ai-on-cybersecurity/">Radu, I. (2023, May 10). The Impact of AI on Cybersecurity: Advantages and Disadvantages.</a>
-                    </li>
-                    
-                    <li>
-                        <a href="https://www.seasiainfotech.com/blog/how-amazon-uses-artificial-intelligence/#:~:text=By%20using%20AI%20to%20handle,and%20convenient%20experience%20for%20customers">Rana, A. (2023, January 3). How Amazon Uses Artificial Intelligence?</a>
-                    </li>
-                </ul>
-
-
-            </article>
-
-
-
-            <aside>       
-                <h2>Related</h2>        
-                <ul>          
-                    <li><a href="#">Oh I do like to be beside the seaside</a></li>          
-                    <li><a href="#">Oh I do like to be beside the sea</a></li>          
-                    <li><a href="#">Although in the North of England</a></li>          
-                    <li><a href="#">It never stops raining</a></li>          
-                    <li><a href="#">Oh well...</a></li>        
-                </ul>      
-            </aside>    
-        </main>   
-
-        <footer>      
-            <p>©Copyright 2050 by nobody. All rights reversed.</p>    
-        </footer> 
-        <script>
-            var icon = document.getElementById("icon");
-            icon.onclick = function(){
-                document.body.classList.toggle("dark-theme");
-            }
-        </script> 
-        </body>
+      <input type="email" placeholder="Enter Email"/>
+      <button type="submit">
+        <img src="https://i.ibb.co/CW5Wvry/buttonpng.png" alt="buttonpng" border="0" />
+      </button>
+    </div>
+  </body>
 </html>
