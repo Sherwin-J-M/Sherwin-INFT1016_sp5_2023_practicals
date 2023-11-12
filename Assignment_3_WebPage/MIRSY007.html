@@ -11,12 +11,14 @@
                 document.querySelector('h4').innerText = `Hello ${userName}`;
             }
 
+            /* Create a function to show current date and time to the user */
             function updDate(){
                 const now = new Date();
                 const currentDateTime = now.toLocaleString();
                 document.querySelector('#datetime').textContent = currentDateTime;
             
             }
+            /* Call the function 'updDate every second */
             setInterval(updDate, 1000);
 
             
