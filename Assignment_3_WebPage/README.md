@@ -1,5 +1,11 @@
 # Assignment 3 - WEBPAGE
 
+
+Name: Sherwin John Miranda
+Student ID: 110417362
+Email Id: MIRSY007@mymail.unisa.edu.au
+Description: Assignment 3 – WEBPage with the contents of assignment 2 (Report writing) and functions listed below
+ 
 ## Table of Contents
 0. [Function](#Function)
 1. [Introduction](#introduction)
