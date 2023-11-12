@@ -72,6 +72,10 @@ span{
 h3, p, li{
   color: var(--secondary-color)
 }
+
+p1{
+  color:#000000
+}
 h4{
   margin: 5px;
   color: var(--secondary-color);
