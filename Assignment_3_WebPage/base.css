@@ -6,7 +6,9 @@
 .dark-theme{
   --primary-color: #222121;
   --secondary-color: #cccccc;
-
+a{
+  color: #2F5496; 
+}
 }
 html {
   scroll-behavior: smooth;
