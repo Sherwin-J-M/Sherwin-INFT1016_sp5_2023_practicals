@@ -145,3 +145,22 @@ footer {
   text-align: center;
   padding: 15px 0;
 }
+
+/*Button for image style*/
+.image-container {
+  display: none;
+}
+.image-container img {
+  max-width: 100%;
+}
+.toggle {
+  display: none;
+}
+.label {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 5px;
+}
+.toggle:checked + .label + .image-container {
+  display: block;
