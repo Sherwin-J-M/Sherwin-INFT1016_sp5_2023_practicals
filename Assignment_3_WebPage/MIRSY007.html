@@ -479,13 +479,14 @@
             }
 
             /* Function to show the image contained */
-            function showImage(){
+            function showAmazonImage() {
                 const amazonImageContainer = document.getElementById('amazonImageContainer');
                 const amazonPhotographer = document.getElementById('amazonPhotographer');
                 amazonImageContainer.innerHTML = `<img src="amazon.jpg" alt="Amazon">`;
                 amazonPhotographer.innerText = 'Photographer: John Doe';
             }
-            document.getElementById('amazonButton').addEventListener('click', showImage);
+            // Attach click event listener to the Amazon button
+            document.getElementById('amazonButton').addEventListener('click', showAmazonImage);
 
         </script> 
         </body>
