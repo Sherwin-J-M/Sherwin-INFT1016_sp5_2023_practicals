@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="base.css">   
         <script>
              // JavaScript code:
-            function updateHeading() {
+             function updateHeading() {
                 const userName = document.querySelector('input[name="user_name"]').value;
                 document.querySelector('h4').innerText = `Hello ${userName}`;
             }
@@ -23,14 +23,14 @@
 
             
             
-            window.onload = function updateHeading(){
+            window.onload = function () {
                 const urlParams = new URLSearchParams(window.location.search);
                 const userName = urlParams.get('user_name');
                 if (userName) {
                     document.querySelector('input[name="user_name"]').value = userName;
                     updateHeading();
                 }
-            }
+            };
 
             
 
