@@ -32,7 +32,16 @@
                 }
             }
 
-            
+            /* Function to show the image contained */
+            function showAmazonImage() {
+                const amazonImageContainer = document.getElementById('amazonImageContainer');
+                const amazonPhotographer = document.getElementById('amazonPhotographer');
+                amazonImageContainer.innerHTML = `<img src="amazon.jpg" alt="Amazon">`;
+                amazonPhotographer.innerText = 'Photographer: John Doe';
+            }
+            // Attach click event listener to the Amazon button
+            document.getElementById('amazonButton').addEventListener('click', showAmazonImage);
+
 
 
 
@@ -478,16 +487,7 @@
                 document.body.classList.toggle("dark-theme");
             }
 
-            /* Function to show the image contained */
-            function showAmazonImage() {
-                const amazonImageContainer = document.getElementById('amazonImageContainer');
-                const amazonPhotographer = document.getElementById('amazonPhotographer');
-                amazonImageContainer.innerHTML = `<img src="amazon.jpg" alt="Amazon">`;
-                amazonPhotographer.innerText = 'Photographer: John Doe';
-            }
-            // Attach click event listener to the Amazon button
-            document.getElementById('amazonButton').addEventListener('click', showAmazonImage);
-
+            
         </script> 
         </body>
 </html>
