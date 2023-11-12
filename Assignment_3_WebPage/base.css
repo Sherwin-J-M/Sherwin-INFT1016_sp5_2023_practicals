@@ -160,8 +160,7 @@ footer {
   cursor: pointer;
   border: 1px solid #ccc;
   padding: 5px;
-  margin: 5px;
-  gap: 10%;
+  margin: 10px;
 }
 .toggle:checked + .label + .image-container {
   display: block;
