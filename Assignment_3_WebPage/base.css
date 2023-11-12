@@ -56,6 +56,10 @@ h1,h2 {
   color: #2F5496;
 }
 
+span{
+  color: var(--secondary-color);
+}
+
 h3, p, li{
   color: var(--secondary-color)
 }
@@ -165,6 +169,7 @@ footer {
   border: 1px solid #ccc;
   padding: 5px;
   margin: 5px;
+  color: var(--secondary-color);
 }
 .toggle:checked + .label + .image-container {
   display: block;
